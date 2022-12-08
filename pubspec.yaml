@@ -1,0 +1,24 @@
+name: sip_native_example
+description: Demonstrates how to use the sip_native plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sip_native:
+    git:
+      url: https://github.com/iampato/sip_native.git
+  cupertino_icons: ^1.0.0
+  fluttertoast: null
+  flutter_easyloading:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
